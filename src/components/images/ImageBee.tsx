@@ -13,14 +13,12 @@ import Img from 'gatsby-image'
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-export default function Image(): React.ReactElement {
+export default function ImageBee(): React.ReactElement {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(
-                relativePath: { eq: "gatsby-astronaut.png" }
-            ) {
+            placeholderImage: file(relativePath: { eq: "bee.png" }) {
                 childImageSharp {
-                    fluid(maxWidth: 300) {
+                    fluid(maxWidth: 60) {
                         ...GatsbyImageSharpFluid
                     }
                 }

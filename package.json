@@ -3,6 +3,16 @@
   "private": true,
   "description": "Color Splash - Kids",
   "version": "0.0.0",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "lint": "eslint --ext .ts,.tsx ./src",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "author": "Pavel Kukov <pavelkukov@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.19",
@@ -43,16 +53,6 @@
     "website"
   ],
   "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
-    "lint": "eslint --ext .ts,.tsx ./src",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",

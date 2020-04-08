@@ -22,8 +22,8 @@ module.exports = {
                 name: `color-splash-kids`,
                 short_name: `csk-website`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#663399`,
+                background_color: `#fd9900`,
+                theme_color: `#fd9900`,
                 display: `minimal-ui`,
                 icon: `src/images/icon-512x512.png`, // This path is relative to the root of the site.
             },
