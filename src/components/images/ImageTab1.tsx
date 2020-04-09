@@ -2,18 +2,12 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-export interface CSKLabelHProps {
-    alt: string
-}
-
-export default function CSKLabelH({
-    alt,
-}: CSKLabelHProps): React.ReactElement<CSKLabelHProps> {
+export default function ImageTab1(): React.ReactElement {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(relativePath: { eq: "csk-label-h.png" }) {
+            placeholderImage: file(relativePath: { eq: "tablet1.png" }) {
                 childImageSharp {
-                    fluid(maxWidth: 400) {
+                    fluid(maxWidth: 360) {
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -23,8 +17,7 @@ export default function CSKLabelH({
 
     return (
         <Img
-            imgStyle={{ objectFit: 'contain' }}
-            alt={alt}
+            alt={`Spring Rain`}
             fluid={data.placeholderImage.childImageSharp.fluid}
         />
     )

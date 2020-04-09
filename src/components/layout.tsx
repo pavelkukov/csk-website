@@ -6,7 +6,7 @@
  */
 
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
@@ -47,7 +47,8 @@ export default function Layout({
                         textAlign: `right`,
                     }}
                 >
-                    Color Splash - Kids
+                    <Link to="/">Home</Link> |{' '}
+                    <Link to="/privacy-policy/">Privacy Policy</Link>
                 </footer>
             </div>
         </>
