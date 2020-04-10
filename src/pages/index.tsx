@@ -32,27 +32,29 @@ export default function IndexPage(): React.ReactElement {
                             &quot;Color Splash - Kids&quot; is a free, creative,
                             coloring book for children on Android.
                         </strong>{' '}
-                        It offers a colorful and fun new way to play with colors
-                        while challenging the imagination.
+                        It offers an artistic and fun new way to play with
+                        colors while challenging the imagination.
                     </p>
                     <p>
-                        Discover a continually growing collection of drawings
-                        and a wide selection of colors to try. No need to buy
-                        reams of coloring books - this one is the best one for
-                        kids. It gives you something more than just a coloring
-                        book; coloring can become a way of life. There are also
-                        a variety of fun stickers available. Get ready for a
-                        great time!
+                        Discover a continually growing collection of drawings, a
+                        wide selection of colors, and a variety of cute
+                        stickers. Simple interface, and beautiful illustrations
+                        make Color Splash - Kids an excellent game for all ages.
+                        Get ready for a great time!
                     </p>
                     <p>
-                        All images are printable directly from the app. You can
-                        share or save colored drawings. Use this app on your
-                        tablet or phone. No registration is required. New images
-                        are available for free.
+                        Works on tablets and phones. No registration required.
+                        New images are available for free.
                     </p>
                 </div>
             </div>
-            <h3>🌈 Features:</h3>
+            <h3
+                style={{
+                    marginTop: `20px`,
+                }}
+            >
+                🌈 Features:
+            </h3>
             <ul>
                 <li>Choose a magic wand, pastels, or stickers</li>
                 <li>Color and recolor as many times as you want</li>
