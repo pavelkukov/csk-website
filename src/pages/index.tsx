@@ -82,6 +82,12 @@ export default function IndexPage(): React.ReactElement {
                 Do not sell my data: User data is NOT collected. Your{' '}
                 <Link to="/privacy-policy/">privacy</Link> is important.
             </p>
+            <p>
+                Color Splash - Kids (NO ADS) is an add free version. Because ads
+                are not shown, your{' '}
+                <Link to="/privacy-policy-noads/">privacy</Link> is even more
+                secure.
+            </p>
             <div style={{ display: 'flex', flexDirection: 'row' }}>
                 <div
                     style={{

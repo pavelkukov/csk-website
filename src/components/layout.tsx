@@ -48,7 +48,13 @@ export default function Layout({
                     }}
                 >
                     <Link to="/">Home</Link> |{' '}
-                    <Link to="/privacy-policy/">Privacy Policy</Link>
+                    <Link to="/privacy-policy/">
+                        Color Splash - Kids Privacy Policy
+                    </Link>{' '}
+                    |{' '}
+                    <Link to="/privacy-policy-noads/">
+                        Color Splash - Kids (NO ADS) Privacy Policy
+                    </Link>
                 </footer>
             </div>
         </>
