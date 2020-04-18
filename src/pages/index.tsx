@@ -8,6 +8,7 @@ import ImageTab2 from '../components/images/ImageTab2'
 import ImageTab3 from '../components/images/ImageTab3'
 import ImagePho1 from '../components/images/ImagePho1'
 import ImagePho3 from '../components/images/ImagePho3'
+import ImageGetItOnPlayStore from '../components/images/ImageGetItOnPlayStore'
 
 export default function IndexPage(): React.ReactElement {
     return (
@@ -48,24 +49,38 @@ export default function IndexPage(): React.ReactElement {
                     </p>
                 </div>
             </div>
-            <h3
-                style={{
-                    marginTop: `20px`,
-                }}
-            >
-                🌈 Features:
-            </h3>
-            <ul>
-                <li>Choose a magic wand, pastels, or stickers</li>
-                <li>Color and recolor as many times as you want</li>
-                <li>Save and print colored or non-colored images</li>
-                <li>Share your creations with family and friends</li>
-                <li>
-                    After an image is initially selected, it becomes available
-                    offline
-                </li>
-                <li>Regular updates in the gallery every week</li>
-            </ul>
+            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                <div
+                    style={{
+                        width: '50%',
+                        paddingTop: '40px',
+                    }}
+                >
+                    <a href="https://play.google.com/store/apps/details?id=com.codeiterator.colorsplashkids">
+                        <ImageGetItOnPlayStore />
+                    </a>
+                </div>
+                <div style={{ width: '50%' }}>
+                    <h3
+                        style={{
+                            marginTop: `20px`,
+                        }}
+                    >
+                        🌈 Features:
+                    </h3>
+                    <ul>
+                        <li>Choose a magic wand, pastels, or stickers</li>
+                        <li>Color and recolor as many times as you want</li>
+                        <li>Save and print colored or non-colored images</li>
+                        <li>Share your creations with family and friends</li>
+                        <li>
+                            After an image is initially selected, it becomes
+                            available offline
+                        </li>
+                        <li>Regular updates in the gallery every week</li>
+                    </ul>
+                </div>
+            </div>
 
             <h3>🎨 THE GAME THAT KEEPS YOU LONGING FOR MORE</h3>
             <p>
