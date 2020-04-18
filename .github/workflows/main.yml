@@ -29,6 +29,7 @@ jobs:
       with:
           ssh-private-key: ${{ secrets.SSH_KEY }}
     - run: npm run build
+    - run: echo 'color-splash-kids.com' > ./public/CNAME
     - run: npm run semantic-release
       env:
         CI: true
