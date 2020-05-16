@@ -92,6 +92,16 @@ export default function IndexPage(): React.ReactElement {
                 Have fun playing Color Splash - Kids the most colorful game
                 around!
             </p>
+            <p>
+                Looking for{' '}
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
+                    coloring pages for adults
+                </a>
+                ? Visit:{' '}
+                <a href="https://coloring-pages.tv/">
+                    https://coloring-pages.tv/
+                </a>
+            </p>
 
             <p>
                 Do not sell my data: User data is NOT collected. Your{' '}
